@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - loop variables
+ * main - loop through variables a,b,c printing digits
  *
- * Return: print to sort out
+ * Return: print to stdout all possibl different combinations of three digits
  */
 int main(void)
 {
@@ -14,7 +14,6 @@ int main(void)
 	while (a <= '7')
 	{
 		b = a + 1;
-		{
 		while (b <= '8');
 		{
 			c = b + 1;
