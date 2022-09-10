@@ -5,7 +5,7 @@
  *
  * Description: print all single digit number
  *
- * Return: Always 0 (Success)
+ * Return: Alway 0 (Success)
  */
 
 int main(void)
@@ -17,7 +17,6 @@ int main(void)
 		++digit;
 	}
 	printf("\n");
-	
-	return (0);
 
+	return (0);
 }
