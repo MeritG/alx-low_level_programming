@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * check for lowecase letter
+ * _islower - check for lowecase letter
  *
  * @c:checks input of function
  *

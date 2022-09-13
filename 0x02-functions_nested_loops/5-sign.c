@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * write a function that prints the sin of a number
+ * print_sign - write a function that prints the sign of a number
  *
  * Return: 1 if +, 0 if 0 and -1 if -
  */
