@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 
 /**
  * write a function that prints the sin of a number

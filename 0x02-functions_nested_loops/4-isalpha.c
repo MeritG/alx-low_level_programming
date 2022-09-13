@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 
 /**
  * check if characters are letters
