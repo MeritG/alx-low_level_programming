@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
- * swap_int - swaps two integers
+ * swap_int - swaps two integer
+ *
+ * @a: take first int
+ *
+ * @b: take secong int
  *
  */
 
