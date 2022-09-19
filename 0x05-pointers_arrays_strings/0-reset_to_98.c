@@ -5,13 +5,11 @@
  *
  * @n: takes an int
  *
- * Return: 0
+ * Return: int
  *
  */
 
-void reset_to_98(int *n)
+void reset_to_98(int *n);
 {
-	int *n = 98;
-
-	return (0);
+	*n = 98;
 }
