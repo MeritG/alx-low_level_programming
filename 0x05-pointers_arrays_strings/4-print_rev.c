@@ -11,16 +11,14 @@
 
 void print_rev(char *s)
 {
-	int a;
-	char c;
+	int index;
 
-	for (a = 0; s[a] != 0; a++)
-	{
-	}
-	for (a = a - 1; a >= 0; a--)
-	{
-		c = s[a];
-		_puttchar(c);
-	}
+	/*finds the length of the string*/
+	for (index = 0; s[index] != '\0'; ++index)
+		;
+
+	/*print char from the last index*/
+	for (--index; index >= 0; --index)
+		_putchar(s[index]);
 	_putchar('\n');
 }
