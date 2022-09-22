@@ -1,30 +1,59 @@
 #include "main.h"
 
+
+
 /**
- * *cap_string - a function that capitalizes all words of a string
- * @str: string
- * Return: string
- */
+ *
+ *  * *cap_string - a function that capitalizes all words of a string
+ *
+ *   * @str: string
+ *
+ *    * Return: string
+ *
+ *     */
+
+
 
 char *cap_string(char *str)
+
 {
-	int f = 1;
 
-	if (str[0] >= 'a' && str[0] <= 'z')
-		str[0] = str[0] - 32;
+		int i = 1;
 
-	while (str[f] != '\0')
-	{
-		if ((str[f - 1] == ' ' || str[f - 1] == '\t'
-					|| str[f - 1] == '\n' || str[f - 1] == ',' || str[f - 1] == ';'
-					|| str[f - 1] == '.' || str[f - 1] == '!' || str[f - 1] == '?'
-					|| str[f - 1] '"' || str[f - 1] == '(' || str[f - 1] == ')'
-					|| sttr[f - 1] == '{' || str[f - 1] == '}')
-				&& (str[f] >= 'a' && str[f] <= 'z'))
-		{
-			str[f] = str[f] - 32;
-		}
-		f++;
-	}
-	return (str);
+
+
+			if (str[0] >= 'a' && str[0] <= 'z')
+
+						str[0] = str[0] - 32;
+
+
+
+				while (str[i] != '\0')
+
+						{
+
+									if ((str[i - 1] == ' ' || str[i - 1] == '\t'
+
+															|| str[i - 1] == '\n' || str[i - 1] == ',' || str[i - 1] == ';'
+
+																		|| str[i - 1] == '.' || str[i - 1] == '!' || str[i - 1] == '?'
+
+																					|| str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')'
+
+																								|| str[i - 1] == '{' || str[i - 1] == '}')
+
+														&& (str[i] >= 'a' && str[i] <= 'z'))
+
+												{
+
+																str[i] = str[i] - 32;
+
+																		}
+
+											i++;
+
+												}
+
+					return (str);
+
 }
