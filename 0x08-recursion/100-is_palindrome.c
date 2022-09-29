@@ -1,13 +1,4 @@
-/**
- *
- *  * File: 7-is_palindrome.c
- *
- *   * Auth: Brennan D Baraban
- */
-
-
-
-#include "holberton.h"
+#include "main.h"
 
 
 
@@ -30,6 +21,8 @@ int is_palindrome(char *s);
  *     * Return: The length of the string.
  *
  *      */
+
+
 
 int find_strlen(char *s)
 
@@ -75,6 +68,8 @@ int find_strlen(char *s)
  *
  *         */
 
+
+
 int check_palindrome(char *s, int len, int index)
 
 {
@@ -110,6 +105,8 @@ int check_palindrome(char *s, int len, int index)
  *      *         If the string is not a palindrome - 0.
  *
  *       */
+
+
 
 int is_palindrome(char *s)
 
