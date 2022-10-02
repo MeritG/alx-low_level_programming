@@ -26,6 +26,11 @@ int main(int argc, char *argv[])
 			cent -= 25;
 			i += 1;
 		}
+		else if (cent >= 10)
+		{
+			cent -= 10;
+			i += 1;
+		}
 		else if (cent >= 5)
 		{
 			cent -= 5;
