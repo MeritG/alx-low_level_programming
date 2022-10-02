@@ -1,6 +1,6 @@
 #include <ctype.h>
 #include <stdio.h>
-#include <stdlin.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two numbers
